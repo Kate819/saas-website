@@ -1,9 +1,9 @@
 html {
-  color: #6B6B6B;
+  color: #6b6b6b;
 }
 
 .nav a {
-  color: #6B6B6B;
+  color: #6b6b6b;
   text-decoration: none;
 }
 
@@ -16,7 +16,7 @@ h1 {
 }
 
 .divna {
-  background-color: #E9E3E3;
+  background-color: #e9e3e3;
 }
 
 .cup {
@@ -29,13 +29,13 @@ h2 {
 }
 
 .about {
-  background-color: #E9E3E3;
+  background-color: #e9e3e3;
 }
 
 .btn {
   font-family: "Futura", sans-serif;
   background-color: white;
-  color: #6B6B6B;
+  color: #6b6b6b;
   border: .3rem solid white;
   border-radius: 100px;
 }
