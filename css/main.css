@@ -1,3 +1,7 @@
+html {
+  color: #6B6B6B;
+}
+
 .nav a {
   color: #6B6B6B;
   text-decoration: none;
@@ -8,5 +12,55 @@ h1 {
 }
 
 .library {
-  font-family:
+  font-family: "Futura", sans-serif;
+}
+
+.divna {
+  background-color: #E9E3E3;
+}
+
+.cup {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+h2 {
+  font-family: "Futura", sans-serif;
+}
+
+.about {
+  background-color: #E9E3E3;
+}
+
+.btn {
+  font-family: "Futura", sans-serif;
+  background-color: white;
+  color: #6B6B6B;
+  border: .3rem solid white;
+  border-radius: 100px;
+}
+
+h3 {
+  color: #E9E3E3;
+}
+
+.btn:hover {
+  background-color: #6B6B6B;
+  border: .3rem solid #6B6B6B;
+}
+
+a:hover {
+  color: white;
+}
+
+.contact {
+  background-color: #E9E3E3;
+}
+
+.con {
+  color: white;
+}
+
+.faq {
+  font-family: "Futura", sans-serif;
 }
