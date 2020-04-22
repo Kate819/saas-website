@@ -32,68 +32,69 @@
   </div>
 
   <main role="main" id="main" tabindex="0">
-    <section id="contact" tabindex="0"">
-    <h1 class="pad-t">Sign up now!</h1>
-    <form class="push-0" action="https://formspree.io/simperlykate@gmail.com" method="POST">
-      <fieldset>
+    <section id="contact" tabindex="0">
+      <h1 class="pad-t">Sign up now!</h1>
+      <form class="push-0" action="https://formspree.io/simperlykate@gmail.com" method="POST">
+        <fieldset>
 
-        <div class="grid">
+          <div class="grid">
 
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-            <div class="push push-r-1-2">
-              <label for="name">Name</label>
-              <input id="name" name="name" required>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+              <div class="push push-r-1-2">
+                <label for="name">Name</label>
+                <input id="name" name="name" required>
+              </div>
+              <div class="push push-r-1-2">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+              </div>
             </div>
-            <div class="push push-r-1-2">
-              <label for="email">Email</label>
-              <input id="email" type="email" name="email" required>
+
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+              <div class="push">
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" required>
+              </div>
+              <div class="push">
+                <label for="plan">Plan</label>
+                <select id="plan" name="plan">
+                  <option>Free trial</option>
+                  <option>Standart</option>
+                  <option>Premium</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+          <div class="text-center pad-b-2">
+            <button class="btn text-upper" type="submit">Sign up</button>
+            <input type="hidden" name="sign_up" value="Sign up">
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend class="mega italic">Sign in</legend>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+              <div class="push push-r-1-2">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+              </div>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+              <div class="push">
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password" required>
+              </div>
             </div>
           </div>
+          <div class="text-center pad-b-2">
+            <button class="btn text-upper" type="submit">Sign in</button>
+            <input type="hidden" name="sign_up" value="Sign up">
+          </div>
+        </fieldset>
+      </form>
+    </section>
 
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-            <div class="push">
-              <label for="password">Password</label>
-              <input id="password" type="password" name="password" required>
-            </div>
-            <div class="push">
-              <label for="plan">Plan</label>
-              <select id="plan" name="plan">
-                <option>Free trial</option>
-                <option>Standart</option>
-                <option>Premium</option>
-              </select>
-            </div>
-          </div>
-
-        </div>
-        <div class="text-center pad-b-2">
-          <button class="btn text-upper" type="submit">Sign up</button>
-          <input type="hidden" name="sign_up" value="Sign up">
-        </div>
-      </fieldset>
-      <fieldset>
-        <legend class="mega italic">Sign in</legend>
-        <div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-            <div class="push push-r-1-2">
-              <label for="email">Email</label>
-              <input id="email" type="email" name="email" required>
-            </div>
-          </div>
-          <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
-            <div class="push">
-              <label for="password">Password</label>
-              <input id="password" type="password" name="password" required>
-            </div>
-          </div>
-        </div>
-        <div class="text-center pad-b-2">
-          <button class="btn text-upper" type="submit">Sign in</button>
-          <input type="hidden" name="sign_up" value="Sign up">
-        </div>
-      </fieldset>
-    </form>
-  </section>
   </main>
 
   <footer role="contentinfo">
