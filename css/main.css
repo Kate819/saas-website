@@ -58,9 +58,29 @@ a:hover {
 }
 
 .con {
-  color: white;
+  color: #6b6b6b;
 }
 
 .faq {
   font-family: Futura, sans-serif;
+}
+
+.cn {
+  font-family: Futura, sans-serif;
+}
+
+.us {
+  font-family: Lora, serif;
+}
+
+.in {
+  background-color: #6b6b6b;
+  color: white;
+  border: .3rem solid #6b6b6b;
+}
+
+.in:hover {
+  background-color: white;
+  color: #6b6b6b;
+  border: .3rem solid #6b6b6b;
 }
