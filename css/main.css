@@ -8,11 +8,11 @@ html {
 }
 
 h1 {
-  font-family: 'Lora', serif;
+  font-family: Lora, serif;
 }
 
 .library {
-  font-family: "Futura", sans-serif;
+  font-family: Futura, sans-serif;
 }
 
 .divna {
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Futura", sans-serif;
+  font-family: Futura, sans-serif;
 }
 
 .about {
@@ -33,7 +33,7 @@ h2 {
 }
 
 .btn {
-  font-family: "Futura", sans-serif;
+  font-family: Futura, sans-serif;
   background-color: white;
   color: #6b6b6b;
   border: .3rem solid white;
@@ -62,5 +62,5 @@ a:hover {
 }
 
 .faq {
-  font-family: "Futura", sans-serif;
+  font-family: Futura, sans-serif;
 }
